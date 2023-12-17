@@ -1,0 +1,33 @@
+html {
+  width: 400px; /* max: 1000px */
+  height: 200px; /* max: 750px */
+  background-color: #0F0A06;
+}
+@font-face {
+    font-family: 'Youtube';
+    src: url('assets/youtube-sans-light.ttf');
+    font-weight: 300; /* Light */
+}
+
+@font-face {
+    font-family: 'Youtube';
+    src: url('assets/youtube-sans-medium.ttf');
+    font-weight: 500; /* Medium */
+}
+
+@font-face {
+    font-family: 'Youtube';
+    src: url('assets/youtube-sans-bold.ttf');
+    font-weight: 700; /* Bold */
+}
+
+.btn-check:checked + .btn {
+  background-color: #c4302b; /* vermelho mais escuro quando checked */
+  border-color: #c4302b; /* vermelho mais escuro quando checked */
+}
+
+.btn-secondary {
+  background-color: #ff0000; /* vermelho youtube */
+  border-color: #ff0000; /* vermelho youtube */
+  margin-right: 10px; /* espaçamento de 10 pixels */
+}
